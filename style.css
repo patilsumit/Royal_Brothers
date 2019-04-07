@@ -1,0 +1,96 @@
+body{
+    font-family: 'Dosis','sans-serif' !important;  
+}
+.head-img{
+    width:100%  !important;
+    overflow: hidden;
+    
+    height:38vw !important;
+    background-position: center;
+    background-size: contain;
+}
+
+.header-nav{
+  
+    position: absolute;
+}
+.refer{
+    position: absolute;
+    left:60rem !important; 
+}
+
+  .special{
+      margin-top:3rem !important;
+  }
+  .card-top{
+     margin-top:20px !important;
+  }
+  .fleet-title{
+      font-size:2rem !important; 
+  }
+  h1.special-title{
+    font-size:2rem !important; 
+}
+.card-title{
+    text-align:center;
+    font-weight:bold;  
+}
+.card-gap{
+    margin-top:5px;
+}
+@media(max-width:520px){
+    .review-card{
+
+        margin-left:4rem !important; 
+        margin-bottom:2rem; 
+    }
+    .refer{
+        position: absolute;
+        left:3rem !important; 
+        font-size:13px !important; 
+    }
+    .card-bike{
+        width:15rem !important; 
+        margin-left:2rem; 
+        
+    }
+}
+@media(max-width:320px){
+    .head-img{
+        height:500px !important;
+        background-size: cover;
+        position: relative;
+    }
+    .refer{
+        position: absolute;
+        left:10px !important; 
+        font-size:13px !important; 
+    }
+    h1.special-title{
+        font-size:1.5rem !important; 
+    }
+    .review-card{
+
+        margin-left:5rem !important;
+        margin-bottom:2rem; 
+    }
+    .card-bike{
+        width:15rem !important; 
+        margin-left:15px; 
+        
+    }
+    
+    .card-title1{
+        font-weight:bold;
+        text-align: center; 
+    }
+    .nav-city{
+        width:5rem;
+        margin-right: 5rem;
+    }
+    .logo{
+        width:4rem;
+    
+    }
+    
+}
